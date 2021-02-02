@@ -1,0 +1,111 @@
+/* CSS used here will be applied after bootstrap.css */
+html,body {
+    width: 100%;
+    padding-top: 0px;
+}
+
+.wrapper-shrinked{
+    padding-top: 0px !important;
+  -webkit-transition:padding 0.2s linear;
+  -moz-transition:padding 0.2s linear;  
+  -o-transition:padding 0.2s linear;         
+  transition:padding 0.2s linear;
+}
+
+.wrapper-expanded{
+    padding-top: 122px !important;
+  -webkit-transition:padding 0.2s linear;
+  -moz-transition:padding 0.2s linear;  
+  -o-transition:padding 0.2s linear;         
+  transition:padding 0.2s linear;
+}
+
+
+.nav-shrinked {
+  padding-top: 0.2em !important;
+  padding-bottom: 0.2em !important;
+  -webkit-transition:padding 0.2s linear;
+  -moz-transition:padding 0.2s linear;  
+  -o-transition:padding 0.2s linear;         
+  transition:padding 0.2s linear;
+}
+
+.nav-expanded {
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+    -webkit-transition:padding 0.2s linear;
+    -moz-transition:padding 0.2s linear;  
+    -o-transition:padding 0.2s linear;         
+    transition:padding 0.2s linear; 
+  }
+
+.nav-toggle, .navbar-brand{
+  font-size: 2rem;
+}
+
+
+.nav-item:hover{
+  /*box-shadow: inset 0 -3px 0 red;*/
+  border-bottom: 3px solid red;
+}
+
+.navbar-toggler{
+  border: 0;
+  border-radius: 0;
+}
+
+  .lightblue-box{
+      width: 100%;
+      min-height: 90vh;
+      background-color: rgb(232, 247, 250);
+  }
+
+  .lightgrey-box{
+    width: 100%;
+    min-height: 90vh;
+    background-color: rgb(250, 250, 250);
+}
+
+.white-box{
+  width: 100%;
+  min-height: 90vh;
+  background-color: rgb(255, 255, 255);
+}
+
+ul{
+      list-style-type: none;
+  }
+
+.home-img-container{
+  position: relative;
+}
+
+.frosted-box-img-lg{
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  transform: translate(100%, 50%);
+  background-color: rgba(255, 255, 255, .15);  
+  backdrop-filter: blur(5px);
+  box-shadow: 0.5vmin 0.5vmin 8px 0 rgba(0, 0, 0, .3);
+  color: white;
+  padding: 3vmin;
+}
+
+footer>img{
+  filter: brightness(85%);
+}
+
+.portrait{
+  width: 15vmin;
+}
+
+.frosted-box-img-lg h5{
+  font-size: 3vmin;
+}
+
+img{
+  width: 'auto';
+  height: 'auto';
+}
+
